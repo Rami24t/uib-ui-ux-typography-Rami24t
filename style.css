@@ -88,6 +88,14 @@ main h3 a {
   text-decoration: none;
   font-weight: 100;
   font-size: 1.57rem;
+  transition: 0.3s;
+}
+main h3 a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+main h3 a:active {
+  color: blue;
 }
 section {
   border-left: 1px solid rgba(0, 0, 0, 0.27);
