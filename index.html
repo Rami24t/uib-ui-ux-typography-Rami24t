@@ -8,6 +8,7 @@
     <title>Typography Resources</title>
   </head>
   <body>
+    <img id="image" loading="lazy" />
     <header>
       <nav>
         <ul>
@@ -40,12 +41,12 @@
           <p>by Robert Bringhurst</p>
           <p>
             Often referred to as "The Typographer's Bible," Chapter 6 of
-            <span class="italic1">The Elements of Typographic Style</span>covers
-            Choosing and Combining Type. Bringhurst reminds us to "Choose faces
-            that will survive, and if possible prosper, in the final screen
-            conditions" and to "choose faces that suit the task as well as the
-            subject." He tells us to "start with a single typographic family,"
-            but when the time comes to combine fonts, "balance the type
+            <span class="italic1">The Elements of Typographic Style</span>
+            covers Choosing and Combining Type. Bringhurst reminds us to "Choose
+            faces that will survive, and if possible prosper, in the final
+            screen conditions" and to "choose faces that suit the task as well
+            as the subject." He tells us to "start with a single typographic
+            family," but when the time comes to combine fonts, "balance the type
             optically more than mathematically."
           </p>
         </article>
@@ -129,7 +130,7 @@
               >Thinking with Type</a
             >
           </h3>
-          <p>Ellen Lupton</p>
+          <p>by Ellen Lupton</p>
           <p>
             Concerned with letters, text, and grids,
             <span class="italic"
@@ -242,5 +243,18 @@
     <footer>
       <p><a href="#">Back to Top</a></p>
     </footer>
+    <script type="text/javascript">
+      setInterval(myTimer, 8000);
+
+      function myTimer() {
+        document.getElementById("image").src =
+          "https://source.unsplash.com/random/" +
+          (window.innerWidth - 12) +
+          "x" +
+          window.innerHeight +
+          "?Typography?" +
+          Math.random();
+      }
+    </script>
   </body>
 </html>
