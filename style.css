@@ -15,6 +15,11 @@
       padding: 0;
       box-sizing: content-box;
     } */
+img {
+  margin: auto;
+  width: 100%;
+  display: block;
+}
 main > * > * > * > span {
   transition: all 2s;
   animation: animating101 2s ease-in;
@@ -183,5 +188,13 @@ footer p {
     border-left: 1px solid rgba(0, 0, 0, 0.27);
     padding-left: 10px;
     margin-left: 40px;
+  }
+  nav ul li {
+    display: block;
+    margin: 14px auto;
+  }
+  nav ul {
+    display: block;
+    margin: 40px auto 20px auto;
   }
 }
