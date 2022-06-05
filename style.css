@@ -33,12 +33,10 @@ main > * > * > *:nth-child(even) {
 }
 @keyframes animating101 {
   from {
-    display: absolute;
+    position: absolute;
     right: -100%;
     color: rgba(250, 235, 215, 0);
-    scale: 0;
-    rotate: 9grad;
-    display: block;
+    transform: scale(0) rotate(9grad);
     display: none;
   }
 }
