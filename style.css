@@ -179,7 +179,7 @@ footer p {
   margin-bottom: 0.5rem;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1200px) {
   main {
     margin: 1.5rem 2vw;
     padding: 1.6% 2vw 1.6% 1%;
@@ -197,4 +197,13 @@ footer p {
     display: block;
     margin: 40px auto 20px auto;
   }
+}
+#image {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  opacity: 0.1;
+  z-index: -1;
 }
