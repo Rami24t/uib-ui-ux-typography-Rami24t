@@ -51,8 +51,8 @@ body {
   font-size: 16px;
   font-family: "IBM Plex Serif", Georgia, Verdana;
   background-image: url(./img/bg.jpg);
-  margin: 0;
   width: 100%;
+  margin: 0;
   overflow-x: hidden;
 }
 header {
@@ -190,7 +190,8 @@ footer p {
   section {
     border-left: 1px solid rgba(0, 0, 0, 0.27);
     padding-left: 10px;
-    margin-left: 40px;
+    padding-right: 8px;
+    margin-left: 30px;
   }
   nav ul li {
     display: block;
@@ -199,6 +200,7 @@ footer p {
   nav ul {
     margin: 30px auto 18px auto;
     padding: 0px;
+  }
   main h1 {
   font-size: 3rem;
   }
