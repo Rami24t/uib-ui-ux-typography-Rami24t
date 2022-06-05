@@ -52,6 +52,8 @@ body {
   font-family: "IBM Plex Serif", Georgia, Verdana;
   background-image: url(./img/bg.jpg);
   margin: 0;
+  width: 100%;
+  overflow-x: none;
 }
 header {
   text-align: center;
